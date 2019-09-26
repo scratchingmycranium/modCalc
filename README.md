@@ -6,3 +6,8 @@ I made this quick script to make my life a little easier. I had a homework probl
 
 Essentially, I wanted to identify all the x's that satisfy x mod 3 = 0 and visualize the binary of each in order to see 
 if I could identify a pattern that could enable me to draw the DFA.
+
+
+Here is the solution:
+
+<img src='walkthrough1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
