@@ -1,2 +1,8 @@
 # modCalc
-Calculates range(0-x) mod y &amp; displays each valid x in binary form
+Calculates range(0-x) mod y &amp; displays each valid x in binary form.
+
+I made this quick script to make my life a little easier. I had a homework problem that asked:
+"For an alphabet {0,1}, draw a DFA representing modulo 3 operations (The DFA only accepts strings divisible by 3 (e.g., 0,11,etc.))"
+
+Essentially, I wanted to visualize the binary of each valid x mod 3 in order to see if I could identify a pattern that
+could enable me to draw the DFA.
