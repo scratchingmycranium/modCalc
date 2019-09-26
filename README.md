@@ -1,2 +1,2 @@
 # modCalc
-Calculates x mod y &amp; displays x in binary form
+Calculates range(0-x) mod y &amp; displays each valid x in binary form
