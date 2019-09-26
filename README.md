@@ -10,4 +10,4 @@ if I could identify a pattern that could enable me to draw the DFA.
 
 Here is the solution:
 
-<img src='walkthrough1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='IMG_0505.jpg' title='Solution'/>
