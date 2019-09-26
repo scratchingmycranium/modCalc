@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>mod3</title>
+    <title>modCalc</title>
 </head>
 <body>
     <div id="modcalc"></div>
     
     <script>
-        var count =0;
-        var number = prompt("x mod y | enter dividend x ");
-        var mod = prompt("x mod y | enter divisor y");
+        var count = 0;
+        var number = prompt("Range: 0-");
+        var mod = prompt("0-"+number+" mod y | enter divisor y");
         for(var i=0; i<number; i++){
             if (i%mod == 0){
                 document.getElementById("modcalc").innerHTML += (i + " mod" +mod+ "= " + i%mod +"<br>");
@@ -21,7 +21,7 @@
                 count= count+1;
             }
         }
-        document.getElementById("modcalc").innerHTML += (i + " modcalc = " + i%3 +"<br>");
+        document.getElementById("modcalc").innerHTML += ("count = " + count);
     </script>
 </body>
 </html>
